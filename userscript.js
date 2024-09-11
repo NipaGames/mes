@@ -16,7 +16,7 @@ const config = {
   errorMsg: 'oops'
 }
 
-const patchUrl = 'https://cdn.jsdelivr.net/gh/NipaGames/mes@latest/rich-text-editor-bundle.js'
+const patchUrl = 'https://cdn.jsdelivr.net/gh/NipaGames/mes@latest/rich-text-editor-bundle-studeo.js'
 
 new MutationObserver((_, observer) => {
   let originalScript = document.querySelector('script[src*="rich-text-editor-bundle.js"]')
